@@ -1,0 +1,49 @@
+.intro{
+  padding: 1.5em;
+}
+
+h2{
+  color: white;
+  text-align: center;
+  font-size: large;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  color: white;
+  font-size: smaller;
+}
+
+.cake-tray{
+  padding: 1em;
+
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+  gap: 1em 1em;
+  max-width: 1150px;
+}
+
+.item{
+  position: relative;
+  padding: 0.5em;
+
+  background-color: black;
+  border-radius: 0.4em 0.4em 0.4em 0.4em / 0.4em 0.4em 0.4em 0.4em;
+}
+
+.item:hover{
+  border: 2px solid pink;
+}
+
+.text{
+  padding: 0.2em;
+  background-color: rgb(212, 8, 93);
+}
+
+img{
+  width: 100%;
+}

@@ -1,0 +1,22 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.card{
+  max-width: 32em;
+  margin: 0px auto;
+  padding: 0 1.3em 0 1.3em;
+  text-align:center;
+  margin-bottom: 1em;
+}
+
+div h3, div p{
+  margin-bottom: 0.3em;
+}
+
+.main{
+  align-items: center;
+  padding: 1em;
+  height: 90%;
+}

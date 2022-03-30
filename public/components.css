@@ -1,0 +1,37 @@
+/* global */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* page body background color */
+body{
+  background-image: linear-gradient(45deg, rgb(200, 79, 224),rgb(18, 149, 209),rgb(58, 188, 192),rgb(255, 143, 161));
+  height: 100vh;
+}
+
+/* navigation bar */
+nav{
+  height: 3em;
+  width: 100vw;
+
+  top: 0;
+
+  background-color: rgb(221, 17, 17);
+
+  text-align: right;
+  padding: 0.8em;
+}
+
+nav a:hover {
+  color: rgb(7, 150, 233);
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px 0.9em;
+}
